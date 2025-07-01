@@ -27,10 +27,21 @@ This project is entirely **terminal-based**, because we Linux users prefer the k
 - [PyFiglet](https://pypi.org/project/pyfiglet/) – ASCII banners
 
 ---
+## 📥 Installation & Setup
 
-## 📦 Requirements
+Follow these steps to install and run the **Linux Command Bot**:
 
-Before running the bot, install the required Python packages:
+---
+
+### 🔗 1. Clone the Repository
 
 ```bash
+git clone https://github.com/vethavarshini/Linux_Command_Bot.git
+cd Linux_Command_Bot
+```
+## 📦 2. Requirements
+
+Before running the bot, install the required Python packages:
+```bash
 pip install -r requirements.txt
+```
