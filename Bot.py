@@ -20,7 +20,7 @@ import pyfiglet
 from rich.live import Live
 from rich.text import Text
 import google.generativeai as genai
-api_key="<YOUR_API_KEY>"
+api_key="<YOUR API KEY>"
 genai.configure(api_key=api_key)
 
 
