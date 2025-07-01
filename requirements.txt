@@ -1,0 +1,4 @@
+google-generativeai
+typer
+rich
+pyfiglet
