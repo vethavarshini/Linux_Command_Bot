@@ -2,3 +2,4 @@ google-generativeai
 typer
 rich
 pyfiglet
+python-dotenv

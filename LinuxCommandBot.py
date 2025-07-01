@@ -20,7 +20,10 @@ import pyfiglet
 from rich.live import Live
 from rich.text import Text
 import google.generativeai as genai
-api_key="<YOUR API KEY>"
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
 
