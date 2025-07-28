@@ -39,9 +39,40 @@ Follow these steps to install and run the **Linux Command Bot**:
 git clone https://github.com/vethavarshini/Linux_Command_Bot.git
 cd Linux_Command_Bot
 ```
-## 📦 2. Requirements
+## 🛠️ 2. Create a Virtual Environment
+
+```bash
+python -m venv env
+```
+▶️ Activate the Virtual Environment
+
+Windows (PowerShell):
+```bash
+.\env\Scripts\activate
+```
+Linux/Mac:
+```bash
+source env/bin/activate
+```
+## 📦 3. Requirements
 
 Before running the bot, install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+## 🔑 4. Add Your API Key
+There is already a .env file in the project root.
+Open it and add your API key:
+
+GEMINI_API_KEY=<YOUR_API_KEY>
+
+⚠️ Do not share your API key.
+
+## 📦 5. Run the Bot
+
+```bash
+python LinuxCommandBot.py
+```
+✅ Now you're ready to use the Linux Command Bot!
+
+
